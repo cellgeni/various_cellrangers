@@ -12,7 +12,7 @@ Cellranger expects FASTQ files to be formatted in a particular manner, they shou
 ### Submitting Cellranger
 Cellranger is submitted from the command line as followed:
 
-`cat sample.list | while read sample fqdir; do /path/to/submit_cellranger.sh /path/to/cellranger_script.sh sample fqdir; done`
+`cat sample.list | while read sample fqdir; do /path/to/submit_cellranger.sh /path/to/cellranger_script.sh $sample $fqdir; done`
 
 ### Different versions of cellranger
 Each example script here is for a specific version of cellranger (the one used in the request the script was taken from).
