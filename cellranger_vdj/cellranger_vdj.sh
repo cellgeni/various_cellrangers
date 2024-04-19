@@ -7,7 +7,7 @@ FQDIR=$2
 
 REF=/nfs/srpipe_references/downloaded_from_10X/refdata-cellranger-vdj-GRCh38-alts-ensembl-7.0.0
 
-/software/cellgeni/cellranger-7.0.0/cellranger vdj \
+/software/cellgen/cellgeni/cellranger-7.0.1/cellranger vdj \
   --id=$TAG \
   --fastqs=$FQDIR \
   --reference=$REF \
