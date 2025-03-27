@@ -1,0 +1,13 @@
+[gene-expression]
+reference,/software/cellgen/cellgeni/refdata_10x/refdata-gex-GRCh38-2020-A
+create-bam,false
+cmo-set,/lustre/scratch127/cellgen/cellgeni/cakirb/mm59/cellranger-multi-results/feature_ref_feb25.csv
+
+[libraries]
+fastq_id,fastqs,feature_types
+ORG_GUT15357864,/lustre/scratch127/cellgen/cellgeni/cakirb/mm59_fromirods/gem_cmo_feb25,Gene Expression
+ORG_GUT15357867,/lustre/scratch127/cellgen/cellgeni/cakirb/mm59_fromirods/gem_cmo_feb25,Multiplexing Capture
+
+[samples]
+sample_id,cmo_ids
+ORG_GUT15357864,BC1|BC2|BC3

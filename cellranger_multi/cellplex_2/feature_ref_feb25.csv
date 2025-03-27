@@ -1,0 +1,7 @@
+id,name,read,pattern,sequence,feature_type 
+BC1,BC1,R2,^(BC),ATCACGTA,Multiplexing Capture
+BC2,BC2,R2,^(BC),CGATGTCA,Multiplexing Capture
+BC3,BC3,R2,^(BC),TTAGGCGA,Multiplexing Capture
+BC4,BC4,R2,^(BC),TGACCAGA,Multiplexing Capture
+BC5,BC5,R2,^(BC),ACAGTGCA,Multiplexing Capture
+BC6,BC6,R2,^(BC),GCCAATGA,Multiplexing Capture

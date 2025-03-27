@@ -1,0 +1,15 @@
+[gene-expression]
+reference,/software/cellgen/cellgeni/refdata_10x/refdata-gex-GRCh38-2020-A
+no-bam,true
+probe-set,/software/sciops/external/cellranger/7.2.0/probe_sets/Chromium_Human_Transcriptome_Probe_Set_v1.0.1_GRCh38-2020-A.csv
+
+[libraries]
+fastq_id,fastqs,feature_types
+PCNSL_PTLFlex_Pool1,/lustre/scratch127/cellgen/cellgeni/tickets/tic-3719/data/PCNSL_PTLFlex_Pool1,Gene Expression
+
+[samples]
+sample_id,probe_barcode_ids
+ptl02,BC001
+pcnsl26,BC002
+pcnsl25,BC003
+ptl04,BC004
